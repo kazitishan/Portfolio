@@ -2,7 +2,7 @@ function AboutSection({data}){
     return(
         <div className="flex flex-col ml-3 mr-3 mb-3">
             <div className="flex items-center">
-                <img src={`/${data.img}`} alt={data.subtitle} className="rounded-full w-[7%]"/>
+                <img src={`/${data.img}`} alt={data.subtitle} className="rounded-full w-[50px] min-w-[50px]"/>
 
                 <div className="flex flex-col ml-3 text-left">
                     <h3 className="font-bold">{data.title}</h3>

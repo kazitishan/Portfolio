@@ -1,11 +1,11 @@
 function ProjectCard({data}) {
     return (
-        <div className="p-3 flex flex-col rounded-xl border bg-card text-card-foreground shadow m-4 w-sm justify-between">
+        <div className="p-3 flex flex-col rounded-xl border bg-card text-card-foreground shadow my-4 mx-2 w-sm justify-between">
             <img src={data.img} alt={data.title} className="rounded-xl w-auto h-auto"/>
 
-            <h3 className="font-bold">{data.title}</h3>
+            <h3 className="font-bold mt-1">{data.title}</h3>
 
-            <div className="text-sm">
+            <div className="text-sm mt-1">
                 {data.description}
             </div>
 

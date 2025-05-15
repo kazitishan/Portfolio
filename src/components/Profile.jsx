@@ -1,7 +1,7 @@
 function Profile(){
     return(
         <div className="m-4 flex">
-            <img src="/profile.png" alt="Picture of me" className="w-[30%] h-[30%] rounded-xl mr-4"/>
+            <img src="/profile.png" alt="Picture of me" className="w-[30%] h-[30%] rounded-xl mr-4 mt-auto mb-auto"/>
 
             <div className="flex flex-col text-left justify-center">
                 <h1 className="text-5xl font-bold">Kazi Tishan</h1>

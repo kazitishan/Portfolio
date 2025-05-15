@@ -31,15 +31,16 @@ export const metadata = {
 
 export default function Projects() {
   return (
-    <main className="container">
-      <div className="flex justify-center font-semibold p-1">My Projects</div>
+    <main className="container flex flex-col max-w-full">
+      <h1 className="flex justify-center font-semibold p-2">My Projects</h1>
       
-      <div className="flex">
-        {[...projects].reverse().map((project, i) => (
-          <ProjectCard data={project} key={i} />
-        ))}
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl">
+          {[...projects].reverse().map((project, i) => (
+            <ProjectCard data={project} key={i} />
+          ))}
+        </div>
       </div>
-      
     </main>
   );
 }
