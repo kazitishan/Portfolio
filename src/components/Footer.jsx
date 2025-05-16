@@ -1,8 +1,10 @@
 function Footer() {
     return (
         <footer className="p-6 mt-auto">
-            <div className="container mx-auto">
-                <div className="flex space-x-4 justify-center">
+            <div className="pt-6 border-t border-gray-700 text-center text-gray-400 text-sm flex">
+                <p className="mr-auto">© {new Date().getFullYear()} Kazi Tishan</p>
+
+                <div className="flex space-x-4 justify-center ml-auto">
                     <a href="https://linkedin.com/in/kazitishan" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">LinkedIn</span>
                         <img src="/linkedin.svg" alt="LinkedIn" className="h-6 w-6" />
@@ -15,10 +17,6 @@ function Footer() {
                         <span className="sr-only">Email</span>
                         <img src="/email.svg" alt="Email" className="h-6 w-6" />
                     </a>
-                </div>
-                
-                <div className="mt-6 pt-6 border-t border-gray-700 text-center text-gray-400 text-sm">
-                    <p>© {new Date().getFullYear()} Kazi Tishan. All rights reserved.</p>
                 </div>
             </div>
         </footer>

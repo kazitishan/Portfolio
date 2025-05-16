@@ -25,7 +25,7 @@ const projects = [
 ]
 
 export const metadata = {
-  title: "Kazi Tishan | Projects",
+  title: "Projects | Kazi Tishan",
   description: "My projects",
 };
 
