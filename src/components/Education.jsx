@@ -7,7 +7,7 @@ const education = [
         subtitle: "High School Diploma, Software Engineering", 
         time_frame: "Sep 2020 - Jun 2024", 
         bullets:[
-            "GPA: 96.67",
+            "GPA: 96.75",
             "Key Courses: AP Computer Science Advanced, AP Computer Science Principles, AP Calculus AB, AP Statistics, Web Development, Fundamentals of IT Infrastructure, PLTW Digital Electronics, Cybersecurity, Big Data: Warehousing and Analytics",
             "Awards & Honors: AP Scholar"
         ]
