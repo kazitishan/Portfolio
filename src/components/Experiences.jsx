@@ -23,7 +23,7 @@ const experiences = [
         img: "stevens.png",
         title: "Undergraduate Research Office Assistant", 
         subtitle: "Stevens Institute of Technology", 
-        time_frame: "Feb 2025 - May 2025", 
+        time_frame: "Feb 2025 - Current", 
         bullets:[
             "Updated the Undergraduate Research portal daily with new events and opportunities for students.",
             "Analyzed undergraduate demographic data using R.",

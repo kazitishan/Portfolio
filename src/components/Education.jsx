@@ -18,9 +18,10 @@ const education = [
         subtitle: "Bachelor of Science in Computer Science", 
         time_frame: "Sep 2024 - May 2028", 
         bullets:[
-            "GPA: 3.85",
+            "GPA: 3.86",
+            "Cooperative Education Program",
             "Key Courses: Discrete Structures, Data Structures, Probability and Statistics",
-            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024)"
+            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025)"
         ],
         attachments:[
             {
