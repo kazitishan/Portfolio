@@ -1,15 +1,14 @@
 function Skills() {
-    const languages = ["Java", "Javascript", "Python", "Racket", "R"];
-    const frameworks = ["Spring Boot", "Tailwind CSS", "Express.js", "Next.js"];
-    const libraries = ["React", "Matplotlib", "D3.js"];
-    const databases = ["PostgreSQL", "MongoDB", "MySQL"];
+    const languages = ["Java", "JavaScript", "TypeScript", "Python", "Racket", "R", "PostgreSQL", "MySQL", "C/C++"];
+    const frameworkslibraries = ["React", "Next.js", "Express.js", "Spring Boot", "Node.js", "Tailwind CSS", "Puppeteer", "Playwright"];
+    const tools = ["Git/GitHub", "Microsoft Suite", "Google Suite", "Postman", "Supabase", "Vercel"];
 
     return (
         <div className="rounded-xl border bg-card text-card-foreground shadow m-4">
             <div className="rounded-t-xl flex justify-center font-semibold p-1">Skills</div>
 
             <div className="skills mb-2 px-3">
-                <div className="flex items-center">
+                <div className="flex items-center flex-wrap">
                     <p>Languages:</p>
                     {languages.map((language, index) => (
                         <div key={`language-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
@@ -18,29 +17,20 @@ function Skills() {
                     ))}
                 </div>
 
-                <div className="flex items-center">
-                    <p>Frameworks:</p>
-                    {frameworks.map((framework, index) => (
-                        <div key={`framework-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
-                            <p className="text-xs font-bold">{framework}</p>
+                <div className="flex items-center flex-wrap">
+                    <p>Frameworks/Libraries:</p>
+                    {frameworkslibraries.map((frameworklibrary, index) => (
+                        <div key={`framework-libraries-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
+                            <p className="text-xs font-bold">{frameworklibrary}</p>
                         </div>
                     ))}
                 </div>
 
-                <div className="flex items-center">
-                    <p>Libraries:</p>
-                    {libraries.map((library, index) => (
-                        <div key={`library-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
-                            <p className="text-xs font-bold">{library}</p>
-                        </div>
-                    ))}
-                </div>
-
-                <div className="flex items-center">
-                    <p>Databases:</p>
-                    {databases.map((database, index) => (
-                        <div key={`database-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
-                            <p className="text-xs font-bold">{database}</p>
+                <div className="flex items-center flex-wrap">
+                    <p>Tools:</p>
+                    {tools.map((tool, index) => (
+                        <div key={`tool-${index}`} className="rounded-lg bg-gray-700 m-1 p-1">
+                            <p className="text-xs font-bold">{tool}</p>
                         </div>
                     ))}
                 </div>

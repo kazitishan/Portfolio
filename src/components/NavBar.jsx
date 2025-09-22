@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function NavBar() {
     return (
-      <header className="sticky top-0 z-50 bg-background/75 backdrop-blur-sm">
+      <header className="sticky top-0 z-50 backdrop-blur-sm">
         <nav className="px-8 py-4 flex justify-between items-center">
           <div className="flex gap-3 items-center">
             <Link href="/" className="flex items-center text-purple-300 text-base px-2 py-2 rounded hover:bg-white/10 transition">

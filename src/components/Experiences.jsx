@@ -26,8 +26,8 @@ const experiences = [
         time_frame: "Feb 2025 - Current", 
         bullets:[
             "Updated the Undergraduate Research portal daily with new events and opportunities for students.",
-            "Analyzed undergraduate demographic data using R.",
-            "Communicated directly with students awarded research funding, providing updates on remaining balances."
+            "Analyzed and visualized undergraduate demographic data of 4000+ students using R.",
+            "Communicated directly with 200+ students awarded research funding, providing updates on remaining balances."
         ],
         attachments:[
             {

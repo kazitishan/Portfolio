@@ -21,6 +21,32 @@ const projects = [
       "Matplotlib"
     ],
     source: "https://github.com/kazitishan/Wordle-Solver"
+  },
+  {
+    img: "/kazino-api.png",
+    title: "Kazino Sportsbook API",
+    description: "A RESTful API that provides live match data, betting odds, and match results for soccer matches.",
+    technologies: [
+      "Express.js",
+      "Puppeteer",
+      "Playwright",
+      "Supabase",
+      "PostgreSQL"
+    ],
+    source: "https://github.com/kazitishan/Kazino-Sportsbook-API"
+  },
+  {
+    img: "/kazino.png",
+    title: "Kazino Sportsbook",
+    description: "An application that allows users to bet on real soccer games with virtual currency.",
+    technologies: [
+      "Next.js",
+      "PostgreSQL",
+      "Supabase",
+      "Supabase Auth",
+      "Shadcn UI"
+    ],
+    source: "https://github.com/kazitishan/Kazino-Sportsbook"
   }
 ]
 

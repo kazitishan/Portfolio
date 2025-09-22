@@ -20,7 +20,7 @@ const education = [
         bullets:[
             "GPA: 3.86",
             "Cooperative Education Program",
-            "Key Courses: Discrete Structures, Data Structures, Probability and Statistics",
+            "Relevant Coursework: Discrete Structures, Data Structures, Algorithms, Intermediate Statistics, Computer Architecture",
             "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025)"
         ],
         attachments:[
