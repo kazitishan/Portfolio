@@ -25,15 +25,18 @@ const experiences = [
         subtitle: "Stevens Institute of Technology", 
         time_frame: "Feb 2025 - Current", 
         bullets:[
-            "Updated the Undergraduate Research portal daily with new events and opportunities for students.",
-            "Analyzed and visualized undergraduate demographic data of 4000+ students using R.",
-            "Communicated directly with 200+ students awarded research funding, providing updates on remaining balances."
+            "Developed an automated internship management tool using Playwright and Node.js to synchronize website listings with Excel deadlines, utilizing session persistence to handle Okta MFA. This reduced manual tasks by 2 hours per week.",
+            "Analyzed and visualized undergraduate demographic data for 4000+ students using R and Python with Matplotlib."
         ],
         attachments:[
             {
+                link: "https://github.com/kazitishan/UG-Research-automated-internship-management",
+                name: "Automation Project"
+            },
+            {
                 link: "https://github.com/kazitishan/UG-Research-data-analysis",
                 name: "Data Analysis Script"
-            },
+            }
         ]
     },
 ]

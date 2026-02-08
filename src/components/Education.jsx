@@ -18,10 +18,9 @@ const education = [
         subtitle: "Bachelor of Science in Computer Science", 
         time_frame: "Sep 2024 - May 2028", 
         bullets:[
-            "GPA: 3.86",
-            "Cooperative Education Program",
-            "Relevant Coursework: Discrete Structures, Data Structures, Algorithms, Intermediate Statistics, Computer Architecture",
-            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025)"
+            "GPA: 3.84",
+            "Relevant Coursework: Data Structures, Algorithms, Discrete Structures, Computer Architecture, Systems Programming, Programming Languages, DevOps Principles and Practices, Linear Algebra",
+            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025, Fall 2025)"
         ],
         attachments:[
             {

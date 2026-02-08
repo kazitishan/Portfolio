@@ -47,6 +47,17 @@ const projects = [
       "Shadcn UI"
     ],
     source: "https://github.com/kazitishan/Kazino-Sportsbook"
+  },
+  {
+    img: "/cpu.png",
+    title: "16-Bit Single-Clock Cycle CPU",
+    description: "Architected using Logisim, featuring 4 registers, 3-read-ports, a datapath with an ALU, and separate instruction/data RAM.",
+    technologies: [
+      "Logisim", 
+      "Python", 
+      "ARM64"
+    ],
+    source: "https://github.com/kazitishan/Kazino-Sportsbook"
   }
 ]
 
