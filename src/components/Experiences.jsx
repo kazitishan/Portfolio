@@ -8,8 +8,8 @@ const experiences = [
         time_frame: "Jul 2023 - Aug 2023", 
         bullets:[
             "Provided technical support for the main office and remote sites, troubleshooting 5-10 computers daily.",
-            "Assisted in the department's transition to a new location in Industry City by troubleshooting and setting up hardware/software for over 50 devices.",
-            "Performed PC maintenance, hardware/software installation, upgrades, and inventory management, managing over 100 assets.",
+            "Assisted the department's transition to Industry City by troubleshooting and setting up hardware/software for 50+ devices.",
+            "Performed PC maintenance, hardware/software installation, upgrades, and inventory management, managing 100+ assets.",
             "Managed LAN systems, including 75+ computers, Wi-Fi networks, printers, switches, and UPS devices."
         ],
         attachments:[
@@ -26,7 +26,8 @@ const experiences = [
         time_frame: "Feb 2025 - Current", 
         bullets:[
             "Developed an automated internship management tool using Playwright and Node.js to synchronize website listings with Excel deadlines, utilizing session persistence to handle Okta MFA. This reduced manual tasks by 2 hours per week.",
-            "Analyzed and visualized undergraduate demographic data for 4000+ students using R and Python with Matplotlib."
+            "Developing a web application, using Next.js and Supabase, that will find tailored research opportunities for students",
+            "Analyzing and visualizing undergraduate demographic data for 4000+ students using R and Python with Matplotlib."
         ],
         attachments:[
             {

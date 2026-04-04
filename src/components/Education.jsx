@@ -16,7 +16,7 @@ const education = [
         img: "stevens.png",
         title: "Stevens Institute of Technology", 
         subtitle: "Bachelor of Science in Computer Science", 
-        time_frame: "Sep 2024 - May 2028", 
+        time_frame: "Sep 2024 - May 2027", 
         bullets:[
             "GPA: 3.84",
             "Relevant Coursework: Data Structures, Algorithms, Discrete Structures, Computer Architecture, Systems Programming, Programming Languages, DevOps Principles and Practices, Linear Algebra",
