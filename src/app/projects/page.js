@@ -63,7 +63,7 @@ const projects = [
 
 export const metadata = {
   title: "Projects | Kazi Tishan",
-  description: "My projects",
+  description: "Full-stack web apps, APIs, and systems work built with Next.js, Python, Playwright, and more.",
 };
 
 export default function Projects() {

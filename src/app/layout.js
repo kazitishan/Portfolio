@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Kazi Tishan",
-  description: "My Portfolio Website",
+  description: "Computer Science student at Stevens Institute of Technology focused on web development, automation, and data-driven projects.",
 };
 
 export default function RootLayout({ children }) {
