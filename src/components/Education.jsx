@@ -18,9 +18,9 @@ const education = [
         subtitle: "Bachelor of Science in Computer Science", 
         time_frame: "Sep 2024 - May 2027", 
         bullets:[
-            "GPA: 3.84",
+            "GPA: 3.86",
             "Relevant Coursework: Data Structures, Algorithms, Discrete Structures, Computer Architecture, Systems Programming, Programming Languages, DevOps Principles and Practices, Linear Algebra",
-            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025, Fall 2025)"
+            "Awards & Honors: Kaminski Family Endowed Scholarship, Deans List (Fall 2024, Spring 2025, Fall 2025, Spring 2026)"
         ],
         attachments:[
             {

@@ -40,6 +40,16 @@ const experiences = [
             }
         ]
     },
+    {
+        img: "healthfirst.jpg",
+        title: "Software Engineering Intern", 
+        subtitle: "Healthfirst",
+        time_frame: "Jun 2026 - Aug 2026 (Upcoming)",
+        bullets:[
+            "Incoming Summer 2026"
+        ],
+        attachments:[]
+    }
 ]
 
 function Experiences(){
