@@ -23,15 +23,15 @@ function NavBar() {
   
           <div className="flex gap-4">
             <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
-              <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+              <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
             </a>
   
             <a href={links.github} target="_blank" rel="noopener noreferrer">
-              <img src="/github.svg" alt="GitHub" className="w-6 h-6" />
+              <img src="/icons/github.svg" alt="GitHub" className="w-6 h-6" />
             </a>
   
             <a href={`mailto:${profile.email}`} target="_blank" rel="noopener noreferrer">
-              <img src="/email.svg" alt="Email" className="w-6 h-6" />
+              <img src="/icons/email.svg" alt="Email" className="w-6 h-6" />
             </a>
           </div>
         </nav>

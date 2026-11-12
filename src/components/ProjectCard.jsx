@@ -22,7 +22,7 @@ function ProjectCard({data}) {
                     <a href={`${data.website}`} target="_blank" rel="noopener noreferrer">
                         <div className="flex align-middle p-2 bg-white rounded-lg hover:bg-gray-300 transition cursor-pointer items-center">
                             <p className="text-xs font-semibold text-black">Website</p>
-                            <img src="/link.svg" alt="Link" className="w-4 h-4 ml-1 filter invert" />
+                            <img src="/icons/link.svg" alt="Link" className="w-4 h-4 ml-1 filter invert" />
                         </div>
                     </a>
                 )}
@@ -31,7 +31,7 @@ function ProjectCard({data}) {
                     <a href={`${data.source}`} target="_blank" rel="noopener noreferrer">
                         <div className="flex align-middle p-2 bg-white rounded-lg hover:bg-gray-300 transition cursor-pointer items-center">
                             <p className="text-xs font-semibold text-black">Source</p>
-                            <img src="/github.svg" alt="Link" className="w-4 h-4 ml-1 filter invert" />
+                            <img src="/icons/github.svg" alt="Link" className="w-4 h-4 ml-1 filter invert" />
                         </div>
                     </a>
                 )}

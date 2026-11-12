@@ -12,12 +12,12 @@ function Profile(){
                 <h2 className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl pt-2 sm:pt-4">{profile.title}</h2>
 
                 <div className="flex items-center justify-center sm:justify-start my-1 sm:my-0.5 flex-wrap">
-                    <img src="/location.svg" alt="Location" className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 mr-2" />
+                    <img src="/icons/location.svg" alt="Location" className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 mr-2" />
                     <span className="text-sm sm:text-base md:text-lg lg:text-xl">{profile.location}</span>
                 </div>
 
                 <div className="flex items-center justify-center sm:justify-start flex-wrap">
-                    <img src="/email.svg" alt="Email" className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 mr-2" />
+                    <img src="/icons/email.svg" alt="Email" className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 mr-2" />
                     <span className="text-sm sm:text-base md:text-lg lg:text-xl break-all sm:break-normal">{profile.email}</span>
                 </div>
             </div>
