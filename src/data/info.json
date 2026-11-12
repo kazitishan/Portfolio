@@ -14,15 +14,15 @@
     "skills": [
         {
             "category": "Languages",
-            "items": ["Java", "JavaScript", "TypeScript", "Python", "Racket", "R", "PostgreSQL", "MySQL", "C/C++"]
+            "items": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "SQL (PostgreSQL, MySQL)", "R", "OCaml", "Racket", "ARM64 Assembly"]
         },
         {
             "category": "Frameworks/Libraries",
-            "items": ["React", "Next.js", "Express.js", "Spring Boot", "Node.js", "Tailwind CSS", "Puppeteer", "Playwright"]
+            "items": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Tailwind CSS", "Vite", "Electron.js", "Puppeteer", "Playwright"]
         },
         {
-            "category": "Tools",
-            "items": ["Git/GitHub", "Microsoft Suite", "Google Suite", "Postman", "Supabase", "Vercel"]
+            "category": "Applications/Tools",
+            "items": ["GitHub", "AWS", "Vercel", "Supabase", "Postman", "Workato", "ServiceNow", "Workday", "Icertis", "LogicGate", "VersionOne"]
         }
     ],
     "experiences": [
