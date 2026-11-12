@@ -14,7 +14,7 @@
     "skills": [
         {
             "category": "Languages",
-            "items": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "SQL (PostgreSQL, MySQL)", "R", "OCaml", "Racket", "ARM64 Assembly"]
+            "items": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "SQL", "R", "OCaml", "Racket", "ARM64 Assembly"]
         },
         {
             "category": "Frameworks/Libraries",
