@@ -1,56 +1,8 @@
 import AboutSection from "./AboutSection";
+import info from "@/data/info.json";
 
-const experiences = [
-    {
-        img: "doris.png",
-        title: "IT Support Intern", 
-        subtitle: "NYC Department of Records & Information Services", 
-        time_frame: "Jul 2023 - Aug 2023", 
-        bullets:[
-            "Provided technical support for the main office and remote sites, troubleshooting 5-10 computers daily.",
-            "Assisted the department's transition to Industry City by troubleshooting and setting up hardware/software for 50+ devices.",
-            "Performed PC maintenance, hardware/software installation, upgrades, and inventory management, managing 100+ assets.",
-            "Managed LAN systems, including 75+ computers, Wi-Fi networks, printers, switches, and UPS devices."
-        ],
-        attachments:[
-            {
-                link: "/appreciation.pdf",
-                name: "Certificate of Appreciation"
-            },
-        ]
-    },
-    {
-        img: "stevens.png",
-        title: "Undergraduate Research Office Assistant", 
-        subtitle: "Stevens Institute of Technology", 
-        time_frame: "Feb 2025 - Current", 
-        bullets:[
-            "Developed an automated internship management tool using Playwright and Node.js to synchronize website listings with Excel deadlines, utilizing session persistence to handle Okta MFA. This reduced manual tasks by 2 hours per week.",
-            "Developing a web application, using Next.js and Supabase, that will find tailored research opportunities for students",
-            "Analyzing and visualizing undergraduate demographic data for 4000+ students using R and Python with Matplotlib."
-        ],
-        attachments:[
-            {
-                link: "https://github.com/kazitishan/UG-Research-automated-internship-management",
-                name: "Automation Project"
-            },
-            {
-                link: "https://github.com/kazitishan/UG-Research-data-analysis",
-                name: "Data Analysis Script"
-            }
-        ]
-    },
-    {
-        img: "healthfirst.jpg",
-        title: "Software Engineering Intern", 
-        subtitle: "Healthfirst",
-        time_frame: "Jun 2026 - Aug 2026 (Upcoming)",
-        bullets:[
-            "Incoming Summer 2026"
-        ],
-        attachments:[]
-    }
-]
+const { experiences } = info;
+
 
 function Experiences(){
     return (

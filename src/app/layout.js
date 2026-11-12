@@ -3,6 +3,7 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from '@/components/Footer';
 import { Analytics } from "@vercel/analytics/next"
+import info from "@/data/info.json";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Kazi Tishan",
+  title: info.profile.name,
   description: "Computer Science student at Stevens Institute of Technology focused on web development, automation, and data-driven projects.",
 };
 

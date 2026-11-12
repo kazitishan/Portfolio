@@ -1,68 +1,11 @@
 import ProjectCard from "@/components/ProjectCard";
+import info from "@/data/info.json";
 
-const projects = [
-  {
-    img: "/prisoners.png",
-    title: "100 Prisoners Simulation",
-    description: "This is a tool that allows users to simulate the unique solution to the 100 prisoners puzzle",
-    technologies: [
-      "JavaScript",
-      "D3.js"
-    ],
-    website: "https://kazitishan.github.io/100-Prisoners-Sim/",
-    source: "https://github.com/kazitishan/100-Prisoners-Sim"
-  },
-  {
-    img: "/wordle.png",
-    title: "Wordle Solver Tool",
-    description: "An interactive Wordle solver that suggests optimal guesses using letter frequency data and provides real-time data visualizations.",
-    technologies: [
-      "Python",
-      "Matplotlib"
-    ],
-    source: "https://github.com/kazitishan/Wordle-Solver"
-  },
-    {
-    img: "/cpu.png",
-    title: "16-Bit Single-Clock Cycle CPU",
-    description: "Architected using Logisim, featuring 4 registers, 3-read-ports, a datapath with an ALU, and separate instruction/data RAM.",
-    technologies: [
-      "Logisim", 
-      "Python", 
-      "ARM64"
-    ],
-    source: "https://github.com/kazitishan/Kazino-Sportsbook"
-  },
-  {
-    img: "/kazino-api.png",
-    title: "Kazino Sportsbook API",
-    description: "A RESTful API that provides live match data, betting odds, and match results for soccer matches.",
-    technologies: [
-      "Express.js",
-      "Puppeteer",
-      "Playwright",
-      "Supabase",
-      "PostgreSQL"
-    ],
-    source: "https://github.com/kazitishan/Kazino-Sportsbook-API"
-  },
-  {
-    img: "/kazino.png",
-    title: "Kazino Sportsbook",
-    description: "An application that allows users to bet on real soccer games with virtual currency.",
-    technologies: [
-      "Next.js",
-      "PostgreSQL",
-      "Supabase",
-      "Supabase Auth",
-      "Shadcn UI"
-    ],
-    source: "https://github.com/kazitishan/Kazino-Sportsbook"
-  },
-]
+const { projects } = info;
+
 
 export const metadata = {
-  title: "Projects | Kazi Tishan",
+  title: `Projects | ${info.profile.name}`,
   description: "Full-stack web apps, APIs, and systems work built with Next.js, Python, Playwright, and more.",
 };
 
