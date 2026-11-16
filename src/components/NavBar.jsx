@@ -10,9 +10,16 @@ function NavBar() {
     { name: "Resume", href: "/resume" }
   ];
 
+  const socials = [
+    { name: "LinkedIn", href: links.linkedin, icon: "/icons/linkedin.svg" },
+    { name: "GitHub", href: links.github, icon: "/icons/github.svg" },
+    { name: "Email", href: `mailto:${profile.email}`, icon: "/icons/email.svg" }
+  ];
+
     return (
       <header className="sticky top-0 z-50 backdrop-blur-sm">
         <nav className="p-4 flex justify-between items-center">
+          { /* Pages */ }
           <div className="flex gap-1 items-center">
             {pages.map((page) => (
               <Link key={page.href} href={page.href} className="flex items-center text-purple-300 text-base px-2 py-2 rounded hover:bg-white/10 transition">
@@ -21,18 +28,13 @@ function NavBar() {
             ))}
           </div>
 
+          { /* Socials */ }
           <div className="flex gap-4">
-            <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
-              <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
-            </a>
-
-            <a href={links.github} target="_blank" rel="noopener noreferrer">
-              <img src="/icons/github.svg" alt="GitHub" className="w-6 h-6" />
-            </a>
-
-            <a href={`mailto:${profile.email}`} target="_blank" rel="noopener noreferrer">
-              <img src="/icons/email.svg" alt="Email" className="w-6 h-6" />
-            </a>
+            {socials.map((social) => (
+              <a key={social.name} href={social.href} target="_blank" rel="noopener noreferrer">
+                <img src={social.icon} alt={social.name} className="w-6 h-6" />
+              </a>
+            ))}
           </div>
         </nav>
       </header>
