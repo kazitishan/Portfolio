@@ -4,24 +4,22 @@ const { skills } = info;
 
 function Skills() {
     return (
-        <div className="rounded-xl border bg-card text-card-foreground shadow m-4">
-            <div className="rounded-t-xl flex justify-center font-semibold p-1">Skills</div>
+        <div className="text-card-foreground shadow m-4">
+            <div className="mb-2 flex justify-center font-semibold">Skills</div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 border-t">
-                {skills.map(({ category, items }) => (
-                    <div key={category} className="border-b sm:border-b-0 sm:border-r last:border-0">
-                        <p className="text-center font-semibold p-1 border-b">{category}</p>
+            {skills.map(({ category, items }) => (
+                <div key={category} className="mb-3 rounded-xl border p-4 text-left bg-card">
+                    <h3 className="font-bold">{category}</h3>
 
-                        <div className="grid grid-cols-2 gap-1 p-2">
-                            {items.map((item) => (
-                                <div key={item} className="rounded-lg bg-gray-700 p-1 text-center">
-                                    <p className="text-xs font-bold">{item}</p>
-                                </div>
-                            ))}
-                        </div>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                        {items.map((item) => (
+                            <span key={item} className="rounded-lg bg-gray-700 px-2 py-1 text-xs font-semibold">
+                                {item}
+                            </span>
+                        ))}
                     </div>
-                ))}
-            </div>
+                </div>
+            ))}
         </div>
     );
 }

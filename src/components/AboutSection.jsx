@@ -11,7 +11,7 @@ function AboutSection({ data }) {
     const expandable = hasBullets || hasAttachments;
 
     return (
-        <div className="mb-3 flex flex-col rounded-xl border p-4">
+        <div className="mb-3 flex flex-col rounded-xl border p-4 bg-card">
             {expandable ? (
                 <button type="button" onClick={() => setExpanded((prev) => !prev)} aria-expanded={expanded} aria-controls={detailsId} className="flex w-full cursor-pointer items-center">
                     <img src={data.img} alt={data.subtitle} className="w-[50px] min-w-[50px] rounded-full" />
