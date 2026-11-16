@@ -7,10 +7,16 @@
         "img": "/profile.jpg"
     },
     "links": {
+        "site": "https://kazitishan.com/",
         "linkedin": "https://www.linkedin.com/in/kazitishan/",
         "github": "https://github.com/kazitishan",
         "resume": "/resume.pdf"
     },
+    "pages": [
+        { "name": "Home", "href": "/" },
+        { "name": "Projects", "href": "/projects" },
+        { "name": "Resume", "href": "/resume" }
+    ],
     "skills": [
         {
             "category": "Languages",

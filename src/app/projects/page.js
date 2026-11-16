@@ -7,6 +7,7 @@ const { projects } = info;
 export const metadata = {
   title: `Projects | ${info.profile.name}`,
   description: "Full-stack web apps, APIs, and systems work built with Next.js, Playwright, and more.",
+  alternates: { canonical: "/projects/" },
 };
 
 export default function Projects() {

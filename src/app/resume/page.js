@@ -5,6 +5,7 @@ const { links } = info;
 export const metadata = {
   title: `Resume | ${info.profile.name}`,
   description: `Resume of ${info.profile.name}.`,
+  alternates: { canonical: "/resume/" },
 };
 
 export default function Resume() {

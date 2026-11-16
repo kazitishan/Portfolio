@@ -1,15 +1,9 @@
 import Link from "next/link";
 import info from "@/data/info.json";
 
-const { profile, links } = info;
+const { profile, links, pages } = info;
 
 function NavBar() {
-  const pages = [
-    { name: "Home", href: "/" },
-    { name: "Projects", href: "/projects" },
-    { name: "Resume", href: "/resume" }
-  ];
-
   const socials = [
     { name: "LinkedIn", href: links.linkedin, icon: "/icons/linkedin.svg" },
     { name: "GitHub", href: links.github, icon: "/icons/github.svg" },

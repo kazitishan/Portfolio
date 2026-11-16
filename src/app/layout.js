@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL(info.links.site),
   title: info.profile.name,
   description: "Computer Science student at Stevens Institute of Technology focused on web development, automation, and data-driven projects.",
 };
