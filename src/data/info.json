@@ -44,6 +44,18 @@
                 }
             ]
         },
+                {
+            "img": "/logos/healthfirst.jpg",
+            "title": "Software Engineer Intern",
+            "subtitle": "Healthfirst",
+            "time_frame": "Jun 2026 - Aug 2026",
+            "bullets": [
+                "Executed end-to-end regression test suites across Workday, Icertis, and LogicGate, covering 30+ test cases per release cycle and identifying 10+ defects prior to production deployment.",
+                "Built Workato recipes to integrate Icertis, LogicGate, and Workday for the Vendor Management application.",
+                "Resolved 30+ ServiceNow production support tickets, correctly triaging and routing them to the appropriate teams, reducing the average ticket backlog from 40+ to ~5 (an ~88% reduction)"
+            ],
+            "attachments": []
+        },
         {
             "img": "/logos/stevens.png",
             "title": "Undergraduate Research Office Assistant",
@@ -64,18 +76,6 @@
                     "name": "Data Analysis Script"
                 }
             ]
-        },
-        {
-            "img": "/logos/healthfirst.jpg",
-            "title": "Software Engineering Intern",
-            "subtitle": "Healthfirst",
-            "time_frame": "Jun 2026 - Aug 2026",
-            "bullets": [
-                "Executed end-to-end regression test suites across Workday, Icertis, and LogicGate, covering 30+ test cases per release cycle and identifying 10+ defects prior to production deployment.",
-                "Built Workato recipes to integrate Icertis, LogicGate, and Workday for the Vendor Management application.",
-                "Resolved 30+ ServiceNow production support tickets, correctly triaging and routing them to the appropriate teams, reducing the average ticket backlog from 40+ to ~5 (an ~88% reduction)"
-            ],
-            "attachments": []
         }
     ],
     "education": [
