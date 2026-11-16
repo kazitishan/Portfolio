@@ -12,7 +12,7 @@ function AboutSection({data}){
             </div>
 
             {data.bullets && data.bullets.length > 0 && (
-                <ul className="ml-15 mt-2 text-left">
+                <ul className="ml-10.5 mt-2 text-left">
                     {data.bullets.map((detail, index) => (
                         <li key={index} className="list-disc ml-5">
                             {detail}

@@ -111,21 +111,6 @@
     ],
     "projects": [
         {
-            "img": "/projects/prisoners.png",
-            "title": "100 Prisoners Simulation",
-            "description": "This is a tool that allows users to simulate the unique solution to the 100 prisoners puzzle",
-            "technologies": ["JavaScript", "D3.js"],
-            "website": "https://kazitishan.github.io/100-Prisoners-Sim/",
-            "source": "https://github.com/kazitishan/100-Prisoners-Sim"
-        },
-        {
-            "img": "/projects/wordle.png",
-            "title": "Wordle Solver Tool",
-            "description": "An interactive Wordle solver that suggests optimal guesses using letter frequency data and provides real-time data visualizations.",
-            "technologies": ["Python", "Matplotlib"],
-            "source": "https://github.com/kazitishan/Wordle-Solver"
-        },
-        {
             "img": "/projects/cpu.png",
             "title": "16-Bit Single-Clock Cycle CPU",
             "description": "Architected using Logisim, featuring 4 registers, 3-read-ports, a datapath with an ALU, and separate instruction/data RAM.",
