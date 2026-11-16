@@ -22,7 +22,7 @@ function NavBar() {
           { /* Pages */ }
           <div className="flex gap-1 items-center">
             {pages.map((page) => (
-              <Link key={page.href} href={page.href} className="flex items-center text-purple-300 text-base px-2 py-2 rounded hover:bg-white/10 transition">
+              <Link key={page.href} href={page.href} className="flex items-center text-purple-300 text-base px-2 py-2 rounded hover:bg-white/10 transition font-bold">
                 {page.name}
               </Link>
             ))}
