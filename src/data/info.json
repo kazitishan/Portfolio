@@ -4,7 +4,7 @@
         "title": "CS @ Stevens",
         "location": "Brooklyn, NY",
         "email": "kazitishan12@gmail.com",
-        "img": "/profile.png"
+        "img": "/profile.jpg"
     },
     "links": {
         "linkedin": "https://www.linkedin.com/in/kazitishan/",
@@ -14,11 +14,11 @@
     "skills": [
         {
             "category": "Languages",
-            "items": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "SQL", "R", "OCaml", "Racket", "ARM64 Assembly"]
+            "items": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++", "SQL"]
         },
         {
             "category": "Frameworks/Libraries",
-            "items": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Tailwind CSS", "Vite", "Electron.js", "Puppeteer", "Playwright"]
+            "items": ["React", "Next.js", "Node.js", "Express.js", "Spring Boot", "Vite", "Electron.js", "Puppeteer", "Playwright"]
         },
         {
             "category": "Applications/Tools",
