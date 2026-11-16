@@ -1,15 +1,13 @@
 import Profile from "@/components/Profile";
 import Skills from "@/components/Skills";
-import Experiences from "@/components/Experiences";
-import Education from "@/components/Education";
+import ExperienceAndEducation from "@/components/ExperienceAndEducation";
 
 export default function Home() {
   return (
     <main className="w-full">
       <Profile/>
+      <ExperienceAndEducation/>
       <Skills/>
-      <Experiences/>
-      <Education/>
     </main>
   );
 }
